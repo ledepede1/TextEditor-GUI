@@ -13,6 +13,7 @@ public class GUI extends JFrame {
     public static final JLabel madeby = new JLabel("Made by github.com/ledepede1");
 
     public GUI(){
+        // GUI
         jframe.setResizable(false);
         jframe.setLayout(null);
 
