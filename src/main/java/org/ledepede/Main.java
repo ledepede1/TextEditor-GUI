@@ -36,7 +36,7 @@ public class Main {
         // Open the save dialog
         j.showSaveDialog(null);
         try {
-            saveFile(GUI.textArea.getText(), j.getSelectedFile().getAbsolutePath());
+            saveFile(GUI.textArea.getText(), j.getSelectedFile().getAbsolutePath()); // Saves the file
         } catch (Exception er) {
             // Do nothing just because it will spam some shit in the console
         }
